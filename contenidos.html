@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción al portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+
+  <br>
+
+  
+  <div class="container" >
+    <h1>Administracion de Base de datos II.</h1>
+    <br>
+
+    <!-- barra de navegacion entre html´s -->
+    <ul class="nav nav-pills nav-fill" style="background :lightblue">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="index.html">Introducción</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="contenidos.html">Contenidos de la materia</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="jornalizacion.html">Jornalización</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="calendarizacion.html">Calendarización</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="presentacion.html">Carta de presentación</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="bitacora.html">Bitacora de aprendizaje</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link active" href="conclusion.html">Conclusiones</a>
+      </li>
+    </ul>
+    <HR WIDTH=100% SIZE=10 style="color: rgb(0, 0, 0);"> 
+
+
+    <!-- Contenido de la introduccion  -->
+    <br>
+    <h1>Contenidos de la materia.</h1>
+    <HR WIDTH=45% SIZE=10 style="color: rgb(0, 0, 0);"> 
+    <br>
+
+    <h2>Computo 1</h2>
+    <br>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <!-- semana1 --------- -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+            <b>Semana 1 - NoSql</b>
+          </button>
+          
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse " aria-labelledby="flush-headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Que es?</strong>
+            <p>
+              NoSQL es un enfoque para el diseño de bases de datos que puede
+              adaptarse a una amplia variedad de modelos de datos, incluidos los
+              formatos de clave-valor, documentos, columnas y gráficos. NoSQL, que
+              significa "no solo SQL ", es una alternativa a las bases de datos
+              relacionales tradicionales en las que los datos se colocan en tablas y el
+              esquema de datos se diseña cuidadosamente antes de crear la base
+              de datos.
+              Las bases de datos NoSQL son especialmente útiles para trabajar con
+              grandes conjuntos de datos distribuidos .
+            </p>
+
+            <strong>Historia</strong>
+            <p>
+              La percepción del término NoSQL ha evolucionado desde su lanzamiento en 1998.
+              NoSQL no es una tecnología única inventada por un par de tipos en un garaje o un matemático
+              teorizando sobre estructuras de datos. Los conceptos detrás de NoSQL se desarrolló lentamente
+              durante varios años. Los grupos independientes luego tomaron esos ideas y las aplicó a sus propios
+              problemas de datos, creando así las diversas bases de datos NoSQL que existen en la actualidad.
+              <br>
+              Hoy en día, el movimiento NoSQL incluye cientos de productos de bases de datos NoSQL, lo que ha
+              llevado a una variedad de definiciones para el término, algunas con muy principios comunes y otros no
+              tan comunes.
+              Esta explosión de bases de datos ocurrió porque los enfoques no relacionales se han aplicado a una
+              amplia gama de problemas donde un RDBMS ha tradicionalmente ha sido débil (como cubre este libro
+              en detalle). Bases de datos NoSQL también fueron creados para estructuras de datos y modelos que
+              en un RDBMS requerían considerable gestión o trituración y la reconstitución de datos en código
+              complejo.
+              <br>
+              Cada problema resultó en su propia solución, y su propia base de datos NoSQL, por eso surgieron
+              tantas bases de datos nuevas. Del mismo modo, los productos existentes proporcionar características
+              NoSQL descubrió y adoptó la etiqueta NoSQL, que dificulta el trabajo de arquitectos, directores de TI y
+              compradores de TI porque es poco probable que una base de datos NoSQL pueda resolver todos los
+              problemas en un área de negocios.
+            </p>
+
+            <strong>Características</strong>
+            <li>
+              Un esquema de base de datos es la descripción de todos los posibles datos y estructuras de datos
+              en una base de datos relacional. Con una base de datos NoSQL, no se requiere un esquema, lo que
+              le brinda la libertad de almacenar información sin tener que diseñar un esquema por adelantado.
+            </li>
+            <li>
+              Las relaciones en una base de datos establecen conexiones entre tablas de datos. Por ejemplo, una
+              lista de detalles de transacciones se puede conectar a una lista separada de detalles de entrega.
+              Con una base de datos NoSQL, esto la información se almacena como un agregado: un solo registro
+              con todo sobre la transacción, incluida la dirección de entrega
+            </li>
+            <li>
+              Algunas bases de datos están diseñadas para funcionar mejor (o únicamente) con hardware de
+              procesamiento y almacenamiento especializado. Con un NoSQL base de datos, se pueden utilizar
+              servidores baratos disponibles en el mercado. Añadiendo más de estos Los servidores baratos
+              permiten escalar las bases de datos NoSQL para manejar más datos.
+            </li>
+
+            <li>
+              Las bases de datos distribuidas pueden almacenar y procesar conjunto de información en más de
+              un dispositivo. Con una base de datos NoSQL, un clúster de servidores se puede utilizar para
+              mantener una única base de datos grande.
+            </li>
+
+            <strong>¿Cuándo se debe utilizar NoSQL?</strong>
+
+            <li>
+              Cuando es necesario almacenar y recuperar una gran cantidad de datos.
+            </li>
+
+            <li>
+              La relación entre los datos que almacena no es tan importante.
+            </li>
+
+            <li>
+              Los datos cambian con el tiempo y no están estructurados.
+            </li>
+
+            <li>
+              No se requiere compatibilidad con restricciones y uniones a nivel de base de datos.
+            </li>
+
+            <li>
+              Los datos crecen continuamente y necesita escalar la base de datos con regularidad para manejar 
+              los datos.
+            </li>
+            
+            </ol>
+            </p>
+          </div>
+        </div>
+      </div>
+     <!--  semana 2 ------ -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Semana 2 - Tipos de base de datos NoSql.
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p><strong>Clave-Valor o Key-Vulue</strong>
+
+              <li>
+                Los almacenes de clave-valor, o bases de datos de clave-valor, implementan un modelo de
+                datos simple que empareja una clave única con un valor asociado.
+                Debido a que este modelo es simple, puede conducir al desarrollo de bases de datos de valor
+                clave, que son extremadamente eficaces y altamente escalables para la administración de
+                sesiones y el almacenamiento en caché en aplicaciones web.
+                Las implementaciones difieren en la forma en que están orientadas para trabajar con RAM,
+                unidades de estado sólido o unidades de disco.
+                Los ejemplos incluyen Aerospike, Berkeley DB, MemchacheDB, Redis y Riak.
+              </li>
+             
+            </p> 
+
+            <p><strong>Document o Base de datos de documentos</strong>
+              <li>
+                Las bases de datos de documentos, también llamadas almacenes de documentos, almacenan
+                datos semiestructurados y descripciones de esos datos en formato de documento. Permiten a
+                los desarrolladores crear y actualizar programas sin necesidad de hacer referencia al esquema
+                maestro.
+                El uso de bases de datos de documentos ha aumentado junto con el uso de JavaScript y
+                JavaScript Object Notation ( JSON) , un formato de intercambio de datos que ha ganado una
+                amplia aceptación entre los desarrolladores de aplicaciones web, aunque también se pueden
+                usar XML y otros formatos de datos. Las bases de datos de documentos se utilizan para la
+                gestión de contenido y el manejo de datos de aplicaciones móviles.
+                Couchbase Server, CouchDB , DocumentDB, MarkLogic y MongoDB son ejemplos de bases de
+                datos de documentos.
+              </li>
+            </p>
+
+            <p><strong>Wide Column o Columnar</strong>
+              <li>
+                Los almacenes columnares organizan las tablas de datos como columnas en lugar de filas. Los
+                almacenes columnares se pueden encontrar tanto en bases de datos SQL como NoSQL. Los
+                almacenes de columnas anchas pueden consultar grandes volúmenes de datos más rápido
+                que las bases de datos relacionales convencionales.
+                Se puede utilizar un almacén de datos de columnas para motores de recomendación,
+                catálogos, detección de fraude y otros tipos de procesamiento de datos.
+                Google BigTable , Cassandra y HBase son ejemplos de bases de datos columnares.
+              </li>
+            </p>
+
+            <p><strong>Graph o Base de datos de grafos</strong>
+              <li>
+                Los almacenes de datos de gráficos organizan los datos como nodos, que son como registros
+                en una base de datos relacional, y bordes, que representan conexiones entre nodos. Dado
+                que el sistema de gráficos almacena la relación entre los nodos, puede admitir
+                representaciones más ricas de las relaciones de datos.
+                Además, a diferencia de los modelos relacionales que dependen de esquemas estrictos, el
+                modelo de datos de gráficos puede evolucionar con el tiempo y el uso. Las bases de datos
+                gráficas se aplican en sistemas que deben mapear relaciones, como los sistemas de reserva o
+                la gestión de relaciones con los clientes.
+                Los ejemplos de bases de datos de gráficos incluyen AllegroGraph, IBM Graph, Neo4j y Titan.
+              </li>
+            </p>
+          
+          </div>
+        </div>
+      </div>
+
+      <!-- semana 3 --*----- -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Semana 3 - Base de datos MongoDB
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p><strong>Que es?.</strong> 
+              MongoDB es una base de datos NoSQL orientada a documentos que se utiliza para el almacenamiento
+              de datos de gran volumen. En lugar de usar tablas y filas como en las bases de datos relacionales
+              tradicionales, MongoDB hace uso de colecciones y documentos.
+              Los documentos constan de pares clave-valor que son la unidad básica de datos en MongoDB. Las
+              colecciones contienen conjuntos de documentos y funciones que son equivalentes a las tablas de bases
+              de datos relacionales. MongoDB es una base de datos que salió a la luz a mediados de la década de 2000..</p>
+              <p><strong>Funciones MongoDB</strong>
+              <ul>
+                <li>Cada base de datos contiene colecciones que a su vez contienen documentos. Cada documento
+                  puede ser diferente con un número variable de campos. El tamaño y el contenido de cada documento
+                  pueden ser diferentes entre sí. </li>
+
+                  <li>
+                    La estructura del documento está más en línea con la forma en que los desarrolladores construyen
+                    sus clases y objetos en sus respectivos lenguajes de programación. Los desarrolladores suelen decir
+                    que sus clases no son filas y columnas, sino que tienen una estructura clara con pares clave-valor.
+                  </li>
+
+                  <li>
+                    Las filas (o documentos como se llaman en MongoDB) no necesitan tener un esquema definido de
+                    antemano. En cambio, los campos se pueden crear sobre la marcha.
+                  </li>
+
+                  <li>
+                    El modelo de datos disponible en MongoDB le permite representar relaciones jerárquicas, almacenar
+                    matrices y otras estructuras más complejas con mayor facilidad.
+                  </li>
+              </ul>
+              
+              <p><strong>Conceptos Basicos </strong> <li>
+                
+              </li>
+              <ul>
+                <li>_id</li>
+                <li>Coleccion</li>
+                <li>Cursor</li>
+                <li>Base de datos</li>
+                <li>Documento</li>
+                <li>Campo</li>
+                <li>Json</li>
+              </ul>
+              </p>
+              
+              
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- semana 4 --*----- -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Semana 4 - Redis.
+        </button>
+      </h2>
+
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+
+          <p><strong>Que es? </strong>
+            El nombre Redis proviene de las iniciales de Remote Dictionary Server (servidor de diccionario remoto),
+            un tipo de servidor apto como memoria rápida para datos. Como sistema de gestión de base de datos
+            (SGBD), Redis ofrece tanto una base de datos en memoria (in-memory database) como de clave-valor
+            (key-value store):
+
+
+            <li>
+              Base de datos en memoria: en este tipo de bases de datos, el SGBD guarda todos los datos en la
+              memoria principal, lo cual garantiza una respuesta rápida incluso con grandes conjuntos de datos sin
+              estructurar.
+            </li>
+
+            <li>
+              Base de datos de clave-valor: gracias a su sencilla estructura, estas bases de datos también ofrecen un
+              alto rendimiento y pueden escalarse fácilmente. Para cada entrada se crea una clave (key) mediante la
+              que se puede volver a solicitar la información en cuestión.
+            </li>
+          </p>
+
+            <p><strong>Atencion: </strong>
+              En un servidor Redis, por lo tanto, los
+              datos no se guardan en el disco duro,
+              sino en la memoria principal. Esto
+              permite que Redis funcione como
+              memoria caché y también como
+              unidad de memoria principal, con
+              independencia de si los datos
+              permanecen en la base por mucho o
+              poco tiempo.
+              
+            </p>
+
+            <p></p>
+
+            <p></p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- semana 5 --*----- -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          Semana 5 - Apache Cassandra
+        </button>
+      </h2>
+      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <p><strong>Que es?. </strong>
+            Cassandra es un sistema de administración de
+            bases de datos distribuidas diseñado para
+            manejar un gran volumen de datos estructurados
+            en servidores de productos básicos.
+            Cassandra maneja la gran cantidad de datos con
+            su arquitectura distribuida. Los datos se colocan
+            en diferentes máquinas con más de un factor de
+            replicación que proporciona alta disponibilidad y
+            ningún punto único de falla.</p>
+          
+            <p>
+              Cassandra está diseñada para manejar big data. La característica principal de Cassandra es
+              almacenar datos en múltiples nodos sin un solo punto de falla.
+              La razón de este tipo de arquitectura de Cassandra fue que la falla de hardware puede
+              ocurrir en cualquier momento. Cualquier nodo puede estar inactivo. En caso de falla, se
+              pueden utilizar los datos almacenados en otro nodo. Por lo tanto, Cassandra está diseñada
+              con su arquitectura distribuida.
+              Cassandra almacena datos en diferentes nodos con una arquitectura de moda distribuida
+              de igual a igual.
+            </p>
+
+            <p><strong>Componentes</strong>
+            
+              <li>
+                Nodo
+              </li>
+
+              <li>
+                Centro de Datos
+              </li>
+
+              <li>
+                Clusters
+              </li>
+
+              <li>
+                Commit Log
+              </li>
+
+              <li>
+                Mem-table
+              </li>
+
+              <li>
+                SSTable
+              </li>
+            </p>
+            
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- semana 6 --------- -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSix">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          Semana 6 - Base de datos graficas.
+        </button>
+      </h2>
+
+      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+
+          <p><strong>Que es? </strong>
+            El modelado de datos es el proceso en el que un usuario describe un dominio arbitrario
+            como un gráfico conectado de nodos y relaciones con propiedades y etiquetas. Un
+            modelo de datos de gráficos de Neo4j está diseñado para responder preguntas en
+            forma de consultas Cypher y resolver problemas comerciales y técnicos mediante la
+            organización de una estructura de datos para la base de datos de gráficos.
+            
+            
+            <li>El modelo de datos de gráficos a menudo se denomina "compatible con pizarrones".
+              Normalmente, al diseñar un modelo de datos, las personas dibujan datos de ejemplo en
+              la pizarra y los conectan a otros datos extraídos para mostrar cómo se conectan los
+              diferentes elementos. El modelo de pizarra se vuelve a formatear y estructurar para que
+              se ajuste a tablas normalizadas para un modelo relacional.
+            </li>
+              
+            </p>
+
+            <p></p>
+
+            <p></p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- COMPUTO 2 ---------------------------------------------------------------- -->
+
+
+    <h2>Computo 2</h2>
+    <br>
+
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <!-- semana7 --------- -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingSix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="true" aria-controls="flush-collapseSix">
+            <b>Semana 7 - Generalidades de Seguridad de la base de datos.</b>
+          </button>
+        </h2>
+        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <p><strong>Generalidades: </strong> 
+              En el contexto informático, hablar sobre la seguridad de los datos se refiere a las 
+              diversas medidas que toman las organizaciones para garantizar que sus bases de 
+              datos  estén  protegidas  de  amenazas  internas  y  externas.  Esta  seguridad  de  los 
+              datos incluye proteger la propia base de datos, los datos que contiene, su sistema 
+              de administración de bases de datos y las diversas aplicaciones que acceden a 
+              ella.  En  general,  hoy  en  día  las  organizaciones  debieran  proteger  las  bases  de 
+              datos de ataques deliberados, como amenazas a la seguridad haciendo uso de 
+              internet (ataques automatizados), así como del uso indebido de datos y bases de 
+              datos por parte de quienes pueden acceder a ellos. 
+              En  los  últimos  años,  el  número  de  accesos  no  autorizados  de  los  datos  en  las 
+              empresas  ha  aumentado  considerablemente.  Además  del  daño  inmenso  que 
+              estas  amenazas  representan  para  la  reputación  y  la  base  de  clientes  de  una 
+              empresa, existe un número creciente de regulaciones y sanciones por violaciones 
+              de  datos  que  cada  país  debe  de  trabajar,  reglamentos  con  los  cuales  basarse 
+              para crear políticas internas de trabajo para protección de los datos, siendo esto 
+              el primer paso para lograr una seguridad efectiva de la base de datos, la cual es 
+              clave para seguir cumpliendo, protegiendo la reputación de las organizaciones y 
+              permitirles mantener a sus clientes.  
+            </p>
+            
+            <p><strong>Riesgos de privacidad y seguridad de datos: </strong></p>
+            <ul>
+              <li>
+                Sanciones  civiles  y penales  impuestas por  los  gobiernos,  incluidas  multas y 
+                sanciones. 
+              </li>
+              
+              <li>
+                Importantes multas e indemnizaciones por daños resultantes de demandas 
+                privadas, incluidas las acciones colectivas (permitidas en algunas leyes de 
+                privacidad  y  seguridad  de  datos,  esto  a  partir  de  la  legislación  en  este 
+                aspecto que tengan los países). 
+              </li>
+
+              <li>
+                Daño  a  la  reputación  de  la  empresa  y  la  pérdida  de  la  confianza  de  los 
+                clientes, lo que resulta en la pérdida de ventas, participación de mercado 
+                y valor de marca y accionistas. 
+              </li>
+
+            </ul>
+
+            <p><strong>Seguridad de la base de datos: </strong>
+              En cuanto a la seguridad de la base de datos, se refiere al conjunto de estándares 
+              y tecnologías, que proveen de una gama de herramientas, controles y medidas 
+              diseñadas para establecer y preservar la confidencialidad, integridad y 
+              disponibilidad de la base de datos. Siendo la intención que las empresas siempre 
+              consideren a este elemento, como el que continuamente se verá comprometido 
+              en la mayoría de las filtraciones de datos y, por lo tanto, deberá ser protegido de 
+              la destrucción, modificación o divulgación intencional o accidental. 
+
+             <p><strong>La seguridad de los datos, aborda y protege lo siguiente: </strong></p>
+
+              <li>
+                Los datos en la base de datos. 
+              </li>
+
+              <li>
+                El sistema de gestión de bases de datos (DBMS). 
+              </li>
+
+              <li>
+                Cualquier aplicación asociada a esta. 
+              </li>
+
+              <li>
+                El servidor de base de datos físico y/o el servidor de base de datos virtual y 
+                el hardware subyacente. 
+              </li>
+            </p>
+
+
+            
+          </div>
+        </div>
+      </div>
+
+
+
+     <!--  semana 8 ------ -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingDOS">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDOS" aria-expanded="false" aria-controls="collapseDOS">
+            Semana 8 - Amenazas, riesgos y vulnerabilidades de las bases de datos.
+          </button>
+        </h2>
+        <div id="collapseDOS" class="accordion-collapse collapse" aria-labelledby="headingDOS" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+
+            <iframe src="PDF/Semana 8-Amenazas, riesgos y vulnerabilidades de las bases de datos.pdf" height="500px" width="100%"></iframe>
+          </div>
+        </div>
+      </div>
+        
+
+
+
+
+
+
+
+
+      <!-- semana 9 --*----- -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingNUEVE">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNUEVE" aria-expanded="false" aria-controls="collapseNUEVE">
+            Semana 9 - Normas ISO para seguridad de los datos.
+          </button>
+        </h2>
+        <div id="collapseNUEVE" class="accordion-collapse collapse" aria-labelledby="headingNUEVE" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <iframe src="PDF/Semana 9- Normas ISO para la seguridad de los datos.pdf" height="500px" width="100%"></iframe>
+            
+          </div>
+        </div>
+      </div>
+
+
+      
+
+      <!-- semana 10 --*----- -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingDIEZ">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDIEZ" aria-expanded="false" aria-controls="collapseDIEZ">
+            Semana 10 - Diseño de plan de seguridad datos para una institución basado en ISO 27K
+          </button>
+        </h2>
+        <div id="collapseDIEZ" class="accordion-collapse collapse" aria-labelledby="headingDIEZ" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+           
+            <iframe src="PDF/Semana 10 - Diseño de plan de seguridad datos para una institución basado en ISO 27K   .pdf" height="500px" width="100%"></iframe>
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+       <!-- semana 11 --*----- -->
+       <div class="accordion-item">
+        <h2 class="accordion-header" id="headingONCE">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseONCE" aria-expanded="false" aria-controls="collapseONCE">
+            Semana 11 - Seguridad de las bases de datos en entornos locales.
+          </button>
+        </h2>
+        <div id="collapseONCE" class="accordion-collapse collapse" aria-labelledby="headingONCE" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+           
+            <iframe src="PDF/Semana 10 - Seguridad de las bases de datos en entornos locales.pdf" height="500px" width="100%"></iframe>
+
+            
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+       <!-- semana 12 --*----- -->
+       <div class="accordion-item">
+        <h2 class="accordion-header" id="headingDOCE">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDOCE" aria-expanded="false" aria-controls="collapseDOCE">
+            Semana 12 - Seguridad de las bases de datos en entorno WEB.
+          </button>
+        </h2>
+        <div id="collapseDOCE" class="accordion-collapse collapse" aria-labelledby="headingDOCE" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+           
+            <iframe src="PDF/Semana 12- Seguridad en la bases de datos en entornos web.pdf" height="500px" width="100%"></iframe>
+
+
+          </div>
+        </div>
+      </div>
+
+
+
+       <!-- semana 13 --*----- -->
+       <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTRECE">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTRECE" aria-expanded="false" aria-controls="collapseTRECE">
+            Semana 13 - VACACIONES SEMANA SANTA
+          </button>
+        </h2>
+        <div id="collapseTRECE" class="accordion-collapse collapse" aria-labelledby="headingTRECE" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+           
+            
+
+          </div>
+        </div>
+      </div>
+
+
+       <!-- semana 14 --*----- -->
+       <div class="accordion-item">
+        <h2 class="accordion-header" id="headingCATORCE">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCATORCE" aria-expanded="false" aria-controls="collapseCATORCE">
+            Semana 14 - Actualizacion del proyecto.
+          </button>
+        </h2>
+        <div id="collapseCATORCE" class="accordion-collapse collapse" aria-labelledby="headingCATORCE" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+           
+            <p><strong>Actualizacion.</strong></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  
+    <br>
+    <br>
+    <br>
+    
+</body>
+</html>
