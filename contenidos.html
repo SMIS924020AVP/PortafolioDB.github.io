@@ -696,12 +696,12 @@
 
      <!--  semana 16 ------ -->
       <div class="accordion-item">
-        <h2 class="accordion-header" id="headingDOS">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDOS" aria-expanded="false" aria-controls="collapseDOS">
+        <h2 class="accordion-header" id="headingB">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB" aria-expanded="false" aria-controls="collapseB">
             Semana 16 - Procesos ETL-ELT y herramientas para Datawarehouses.
           </button>
         </h2>
-        <div id="collapseDOS" class="accordion-collapse collapse" aria-labelledby="headingDOS" data-bs-parent="#accordionExample">
+        <div id="collapseB" class="accordion-collapse collapse" aria-labelledby="headingB" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             <p><strong>Qué es un ETL? </strong>
               ETL es un proceso que extrae los datos de diferentes sistemas de origen, luego los transforma (como
@@ -716,34 +716,110 @@
                 se ajuste a tablas normalizadas para un modelo relacional.
               </li>
                 
-              </p>
-  
-              <p></p>
-  
-              <p></p>
-            
+              <p><strong>¿Qué es ELT? </strong>
+                ELT es un método diferente de analizar el enfoque de la herramienta para el movimiento de datos. En
+                lugar de transformar los datos antes de que se escriban, ELT permite que el sistema de destino realice la
+                transformación. Los datos se copiaron primero en el destino y luego se transformaron en su lugar.
+                
+                
+              <li>
+                  ELT generalmente se usa con bases de datos sin SQL como el clúster Hadoop, el dispositivo de datos o la
+                  instalación en la nube.
+              </li>
+          
+              <p><strong>Herramientas </strong>
+                <li> MarkLogic. es una solución de almacenamiento de datos que hace que la integración de datos sea
+                  más fácil y rápida utilizando una variedad de funciones empresariales. Se puede consultar
+                  diferentes tipos de datos como documentos, relaciones y metadatos.</li>
+
+                <li> Oracle. Base de datos líder en la industria. Ofrece una amplia gama de opciones de soluciones de
+                    almacenamiento de datos tanto en las instalaciones como en la nube. Ayuda a optimizar las
+                    experiencias de los clientes aumentando la eficiencia operativa.</li>
+
+                 <li>
+                  Amazon RedShift. Es una herramienta de Datawarehouse, sencilla y rentable para analizar todo
+                  tipo de datos utilizando SQL estándar y herramientas de BI existentes. También permite ejecutar
+                  consultas complejas contra petabytes de datos estructurados.
+                 </li> 
+
+                 <li>Otras herramientas: CData Sync, BiG EVAL, QuerySurge, Xplenty, Panoply, Domo, Teradata, SAP,
+                  SAS </li>
           </div>
         </div>
       </div>
         
 
-
-
-
-
-
-
-
-      <!-- semana 9 --*----- -->
+      <!-- semana 17 --*----- -->
       <div class="accordion-item">
-        <h2 class="accordion-header" id="headingNUEVE">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNUEVE" aria-expanded="false" aria-controls="collapseNUEVE">
-            Semana 9 - Normas ISO para seguridad de los datos.
+        <h2 class="accordion-header" id="headingC">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseC" aria-expanded="false" aria-controls="collapseC">
+            Semana 17 - CUBOS OLAP
           </button>
         </h2>
-        <div id="collapseNUEVE" class="accordion-collapse collapse" aria-labelledby="headingNUEVE" data-bs-parent="#accordionExample">
+        <div id="collapseC" class="accordion-collapse collapse" aria-labelledby="headingC" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <iframe src="PDF/Semana 9- Normas ISO para la seguridad de los datos.pdf" height="500px" width="100%"></iframe>
+             
+            <p><strong>Qué son los cubos OLAP? </strong>
+              El procesamiento analítico en línea (OLAP) es una categoría de software que permite a los usuarios
+              analizar información de múltiples sistemas de bases de datos al mismo tiempo. Es una tecnología que
+              permite a los analistas extraer y ver datos comerciales desde diferentes puntos de vista.
+              
+              
+              <li>El cubo OLAP es una estructura de
+                  datos optimizada para un análisis de
+                  datos muy rápido.
+              </li>
+
+              <li> El Cubo OLAP consta de hechos
+                numéricos llamados medidas que se
+                clasifican por dimensiones. El Cubo
+                OLAP también se llama hipercubo .</li>
+
+              <li> Por lo general, las operaciones y el análisis de datos se realizan utilizando una hoja de cálculo simple,
+                donde los valores de los datos se organizan en formato de fila y columna. Esto es ideal para datos
+                bidimensionales. Sin embargo, OLAP contiene datos multidimensionales, con datos que generalmente se
+                obtienen de una fuente diferente y no relacionada. Usar una hoja de cálculo no es una opción óptima. El
+                cubo puede almacenar y analizar datos multidimensionales de manera lógica y ordenada.</li>
+                
+              <p><strong>Como funcionan los Cubos OLAP </strong>
+                Un almacén de datos extraería información
+                de múltiples fuentes y formatos de datos,
+                como archivos de texto, hojas de Excel,
+                archivos multimedia, etc.
+                
+                <li>
+                  Los datos extraídos se limpian y
+                  transforman. Los datos se cargan en un
+                  servidor OLAP (o cubo OLAP) donde la
+                  información se calcula previamente para su
+                  posterior análisis.
+
+                </li>
+                <p><strong>Operaciones basicas </strong>
+              <li>
+                Drill-down:
+                En el desglose, los datos se fragmentan en
+                partes más pequeñas. Es lo opuesto al proceso
+                de acumulación.
+              </li>
+
+              <li> Slice:
+                Aquí, se selecciona una dimensión y se crea un
+                nuevo subcubo.</li>
+
+              <li>
+                Dice:
+                Esta operación es similar a una rebanada. La
+                diferencia en los dados es que seleccionas 2 o
+                más dimensiones que dan como resultado la
+                creación de un subcubo.
+              </li>
+          
+              <li> Pivot:
+                En Pivot, rota los ejes de datos para
+                proporcionar una presentación sustituta de los
+                datos.</li>
+               
             
           </div>
         </div>
@@ -752,55 +828,129 @@
 
       
 
-      <!-- semana 10 --*----- -->
+      <!-- semana 18 --*----- -->
       <div class="accordion-item">
-        <h2 class="accordion-header" id="headingDIEZ">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDIEZ" aria-expanded="false" aria-controls="collapseDIEZ">
-            Semana 10 - Diseño de plan de seguridad datos para una institución basado en ISO 27K
+        <h2 class="accordion-header" id="headingD">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseD" aria-expanded="false" aria-controls="collapseD">
+            Semana 18 - Data Mining
           </button>
         </h2>
-        <div id="collapseDIEZ" class="accordion-collapse collapse" aria-labelledby="headingDIEZ" data-bs-parent="#accordionExample">
+        <div id="collapseD" class="accordion-collapse collapse" aria-labelledby="headingD" data-bs-parent="#accordionExample">
           <div class="accordion-body">
            
-            <iframe src="PDF/Semana 10 - Diseño de plan de seguridad datos para una institución basado en ISO 27K   .pdf" height="500px" width="100%"></iframe>
+            <p><strong>Qué es la mineria de datos? </strong>
+              La minería de datos , también conocida
+              popularmente como descubrimiento de
+              conocimientos en bases de datos (KDD),
+              se refiere a la extracción no trivial de
+              información implícita, previamente
+              desconocida y potencialmente útil de
+              datos en bases de datos. Si bien la minería
+              de datos y el descubrimiento de
+              conocimientos en bases de datos (o KDD)
+              se tratan con frecuencia como sinónimos,
+              la minería de datos es en realidad parte
+              del proceso de descubrimiento de
+              conocimientos.
+              
+              
+              <li>
+                La minería de datos se refiere a un conjunto de métodos aplicables a bases de datos grandes y
+                complejas para eliminar la aleatoriedad y descubrir el patrón oculto. Los métodos de minería de
+                datos casi siempre son computacionalmente intensivos.
+              </li>
+              La minería de datos se trata de herramientas, metodologías y teorías para revelar patrones en los
+              datos, que es un paso fundamental en el descubrimiento del conocimiento.</li>
 
-          </div>
-        </div>
-      </div>
+             
+                
+              <p><strong>Tecnica de mineria de datos </strong>
+             
+                <li>
+                  Redes neuronales artificiales
+                </li>
+                
+                 <li>
+                Predicción automatizada de tendencias y comportamientos.
+                </li>
 
+              <li> Descubrimiento automatizado de patrones previamente desconocidos.</li>
 
-
-
-
-       <!-- semana 11 --*----- -->
-       <div class="accordion-item">
-        <h2 class="accordion-header" id="headingONCE">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseONCE" aria-expanded="false" aria-controls="collapseONCE">
-            Semana 11 - Seguridad de las bases de datos en entornos locales.
-          </button>
-        </h2>
-        <div id="collapseONCE" class="accordion-collapse collapse" aria-labelledby="headingONCE" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-           
-            <iframe src="PDF/Semana 10 - Seguridad de las bases de datos en entornos locales.pdf" height="500px" width="100%"></iframe>
-
+              <li>
+                Arboles de decisión
+              </li>
+          
+              <li> Algoritmos genéticos </li>
+               
             
+        
+
 
           </div>
         </div>
       </div>
+
+
+
+
+
+       <!-- semana 19 --*----- -->
+       <div class="accordion-item">
+        <h2 class="accordion-header" id="headingE">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseE" aria-expanded="false" aria-controls="collapseE">
+            Semana 19 - Data Mining Tools.
+          </button>
+        </h2>
+        <div id="collapseE" class="accordion-collapse collapse" aria-labelledby="headingE" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+           
+            <p><strong>Qué son las herramientas de mineria de datos? </strong>
+              Las herramientas de data mining se utilizan para gestionar los datos e identificar las posibles tendencias y los patrones más significativos. Los programas desarrollados para ello son cada vez más complejos y el abanico de herramientas cada vez mayor.
+              
+        
+
+             
+                
+              <p><strong>Herramientas </strong>
+             
+                <li>
+                  Marketing.
+                </li>
+                
+                 <li>
+                  Detección de fraudes.
+                </li>
+
+              <li>Gestión de inventario de la cadena de suministro.</li>
+
+              <li>
+                Toma de decisiones
+              </li>
+          
+              <li> Recursos humanos </li>
+
+              
+               
+            
+        
+
+
+          </div>
+        </div>
+      </div>
+
 
        <!-- semana 12 --*----- -->
        <div class="accordion-item">
-        <h2 class="accordion-header" id="headingDOCE">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDOCE" aria-expanded="false" aria-controls="collapseDOCE">
-            Semana 12 - Seguridad de las bases de datos en entorno WEB.
+        <h2 class="accordion-header" id="headingF">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseF" aria-expanded="false" aria-controls="collapseF">
+            Semana 20 - ???
           </button>
         </h2>
-        <div id="collapseDOCE" class="accordion-collapse collapse" aria-labelledby="headingDOCE" data-bs-parent="#accordionExample">
+        <div id="collapseF" class="accordion-collapse collapse" aria-labelledby="headingF" data-bs-parent="#accordionExample">
           <div class="accordion-body">
            
-            <iframe src="PDF/Semana 12- Seguridad en la bases de datos en entornos web.pdf" height="500px" width="100%"></iframe>
+            <p><strong>Todavia no recibimos esa clase </strong>
 
           </div>
         </div>
@@ -810,37 +960,22 @@
 
        <!-- semana 13 --*----- -->
        <div class="accordion-item">
-        <h2 class="accordion-header" id="headingTRECE">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTRECE" aria-expanded="false" aria-controls="collapseTRECE">
-            Semana 13 - VACACIONES SEMANA SANTA
+        <h2 class="accordion-header" id="headingG">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseG" aria-expanded="false" aria-controls="collapseG">
+            Semana 21 - Parcial Final
           </button>
         </h2>
-        <div id="collapseTRECE" class="accordion-collapse collapse" aria-labelledby="headingTRECE" data-bs-parent="#accordionExample">
+        <div id="collapseG" class="accordion-collapse collapse" aria-labelledby="headingG" data-bs-parent="#accordionExample">
           <div class="accordion-body">
            
-            
+            <p><strong>Parcial Final </strong>
 
           </div>
         </div>
       </div>
 
 
-       <!-- semana 14 --*----- -->
-       <div class="accordion-item">
-        <h2 class="accordion-header" id="headingCATORCE">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCATORCE" aria-expanded="false" aria-controls="collapseCATORCE">
-            Semana 14 - Actualizacion del proyecto.
-          </button>
-        </h2>
-        <div id="collapseCATORCE" class="accordion-collapse collapse" aria-labelledby="headingCATORCE" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-           
-            <p><strong>Actualizacion.</strong></p>
-
-          </div>
-        </div>
-      </div>
-    </div>
+      
 
     <br>
     <br>
